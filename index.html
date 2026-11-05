@@ -157,7 +157,7 @@ AFRAME.registerComponent('tank-interaction', {
         ) {
           throw new Error(
             '模型缺少互動物件，請使用本次腳本匯出的 ' +
-            'duckweed_tank.glb。'
+            '。'
           );
         }
 
@@ -384,7 +384,7 @@ AFRAME.registerComponent('tank-interaction', {
       >
         <a-entity
           id="tank"
-          gltf-model="url(./duckweed_tank.glb)"
+          gltf-model="url(./waterweed.glb)"
           scale="0.52 0.52 0.52"
           tank-interaction
         ></a-entity>
